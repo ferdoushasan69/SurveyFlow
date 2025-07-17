@@ -2,10 +2,10 @@ package com.example.surveyflow.data.repository
 
 import com.example.surveyflow.data.model.Record
 import com.example.surveyflow.data.model.SurveyResponse
-import com.example.surveyflow.data.source.local.SurveyDao
-import com.example.surveyflow.data.source.local.SurveyEntity
-import com.example.surveyflow.data.source.local.toEntity
-import com.example.surveyflow.data.source.remote.ApiService
+import com.example.surveyflow.data.local.SurveyDao
+import com.example.surveyflow.data.local.SurveyEntity
+import com.example.surveyflow.data.local.toEntity
+import com.example.surveyflow.data.remote.ApiService
 import com.example.surveyflow.domain.repository.SurveyRepository
 import com.example.surveyflow.utils.Response
 import javax.inject.Inject
@@ -17,7 +17,7 @@ class SurveyRepositoryImpl @Inject constructor(private val apiService: ApiServic
             val response = apiService.getServerList()
             Response.Success(response)
         } catch (e: Exception) {
-            Response.Error(e.localizedMessage ?: "Unknown error")
+            Response.Error("No Internet ${e.cause}")
         }
     }
 

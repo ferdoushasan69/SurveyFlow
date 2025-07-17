@@ -1,6 +1,6 @@
 // File: data/source/local/RecordMapper.kt
 
-package com.example.surveyflow.data.source.local
+package com.example.surveyflow.data.local
 
 import com.example.surveyflow.data.model.Record
 

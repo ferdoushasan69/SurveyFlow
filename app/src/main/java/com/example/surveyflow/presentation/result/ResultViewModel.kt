@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.surveyflow.data.source.local.SurveyEntity
+import com.example.surveyflow.data.local.SurveyEntity
 import com.example.surveyflow.domain.usecase.GetSurveyAnswerUseCase
 import com.example.surveyflow.utils.Response
 import dagger.hilt.android.lifecycle.HiltViewModel

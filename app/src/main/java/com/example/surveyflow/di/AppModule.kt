@@ -3,9 +3,9 @@ package com.example.surveyflow.di
 import android.content.Context
 import androidx.room.Room
 import com.example.surveyflow.data.repository.SurveyRepositoryImpl
-import com.example.surveyflow.data.source.local.SurveyDao
-import com.example.surveyflow.data.source.local.SurveyDatabase
-import com.example.surveyflow.data.source.remote.ApiService
+import com.example.surveyflow.data.local.SurveyDao
+import com.example.surveyflow.data.local.SurveyDatabase
+import com.example.surveyflow.data.remote.ApiService
 import com.example.surveyflow.domain.repository.SurveyRepository
 import com.example.surveyflow.domain.usecase.GetSurveyAnswerUseCase
 import com.example.surveyflow.domain.usecase.SaveSurveyAnswerUseCase

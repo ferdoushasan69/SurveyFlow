@@ -1,4 +1,4 @@
-package com.example.surveyflow.data.source.local
+package com.example.surveyflow.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

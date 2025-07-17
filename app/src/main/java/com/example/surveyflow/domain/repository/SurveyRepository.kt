@@ -2,7 +2,7 @@ package com.example.surveyflow.domain.repository
 
 import com.example.surveyflow.data.model.Record
 import com.example.surveyflow.data.model.SurveyResponse
-import com.example.surveyflow.data.source.local.SurveyEntity
+import com.example.surveyflow.data.local.SurveyEntity
 import com.example.surveyflow.utils.Response
 
 interface SurveyRepository {

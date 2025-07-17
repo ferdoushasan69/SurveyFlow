@@ -1,4 +1,4 @@
-package com.example.surveyflow.data.source.local
+package com.example.surveyflow.data.local
 
 import androidx.room.Dao
 import androidx.room.Insert

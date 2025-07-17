@@ -1,4 +1,4 @@
-package com.example.surveyflow.data.source.remote
+package com.example.surveyflow.data.remote
 
 import com.example.surveyflow.data.model.SurveyResponse
 import com.example.surveyflow.utils.Response
